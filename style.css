@@ -3,17 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdfdfd;
+}
 .card {
     display: flex;
-    max-width: 900px;
+    max-width: 800px;
     justify-content: center;
     margin: 50px auto;
-    border: 2px solid red;
     padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(95, 95, 95, 0.3);
 }
 .image img{
     max-width: 350px;
-    height: 400px;
+    height: 450px;
     border-radius: 12px;
     padding: 5px;
     margin: 10px 20px 10px 10px;
@@ -22,4 +27,18 @@
     padding: 8px;
     margin: 10px;
     font-size: 20px;
+    color: #797979;
+    text-align: justify;
+}
+.greeting h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.greeting span {
+    display: block;
+    margin: 20px 0;
+}
+.greeting p {
+    line-height: 1.2;
+    margin: 18px 0;
 }
