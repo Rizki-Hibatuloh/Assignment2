@@ -23,6 +23,7 @@ body{
     height: 550px;
     margin: 20px;
     border-radius: 10px;
+    box-shadow: 4px 2px 3px #fefefe;
      
 }
 .greeting{
