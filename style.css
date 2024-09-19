@@ -29,7 +29,7 @@ body{
     width: 400px;
     color: #10069e;
     padding: 10px;
-    margin: -199px;
+    margin: -219px;
     border-radius: 10px;
     border: 1px solid #12009bdd;
     text-align: justify;
@@ -45,5 +45,6 @@ body{
 }
 .greeting p{
     font-size: 20px;
+    margin: 8px 8px;
     
 }
