@@ -26,6 +26,15 @@ body{
     box-shadow: 4px 2px 3px #fefefe;
      
 }
+#btn {
+    background-color: #0c113778;
+    z-index: 999999;
+    margin: -340px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fefefe;
+    text-transform: capitalize;
+}
 .greeting{
     width: 400px;
     color: #10069e;
